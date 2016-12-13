@@ -1,0 +1,27 @@
+{
+  "name": "svalbard",
+  "version": "1.0.0",
+  "description": "a distributed scientific data archiving network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "max ogden",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "hypercore-archiver": "^2.4.2",
+    "ndjson": "^1.5.0",
+    "normcore": "github:maxogden/normcore#hyperdiscovery",
+    "archiver-server": "github:joehand/archiver-server#master"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datproject/svalbard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/datproject/svalbard/issues"
+  },
+  "homepage": "https://github.com/datproject/svalbard#readme"
+}
