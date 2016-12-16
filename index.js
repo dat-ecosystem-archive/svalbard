@@ -8,7 +8,8 @@ module.exports = function (key, opts) {
   var archives = archiver('./archive')
   var datServer = archiverServer(archives, opts)
   
-  feed.createReadStream().pipe(ndjson.parse())
+  feed.createReadStream()
+    .pipe(ndjson.parse())
     .on('data', function (obj) {
       if (obj.type === 'add') {
         console.log('adding', obj.key)
@@ -19,7 +20,7 @@ module.exports = function (key, opts) {
       if (obj.type === 'remove') {
         console.log('removing', obj.key)
         archives.remove(obj.key, function (err) {
-          if (err) console.error('error renoving', err)
+          if (err) console.error('error removing', err)
         })
       }
     })

@@ -10,10 +10,10 @@
   "author": "max ogden",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "hypercore-archiver": "^2.4.2",
+    "hypercore-archiver": "^3.0.0",
     "ndjson": "^1.5.0",
-    "normcore": "github:maxogden/normcore#hyperdiscovery",
-    "archiver-server": "github:joehand/archiver-server#master"
+    "normcore": "^1.0.4",
+    "archiver-server": "^2.0.4"
   },
   "devDependencies": {},
   "repository": {
