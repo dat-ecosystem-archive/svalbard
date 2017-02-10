@@ -1,6 +1,6 @@
 # Svalbard
 
-A global metadata vault. A project by the [Dat Project](https://datproject.org). Named after the Svalbard Global Seed Vault which has backups of seeds (metadata that can replicate into plants).
+A global metadata vault for important datasets. A [Dat Project](https://datproject.org) initiative. Named after the Svalbard Global Seed Vault.
 
 [![pic](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Svalbard_seed_vault_IMG_8894.JPG/640px-Svalbard_seed_vault_IMG_8894.JPG)](https://en.wikipedia.org/wiki/Svalbard_Global_Seed_Vault)
 
