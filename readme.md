@@ -8,11 +8,18 @@ This repository is meant to house and track metadata about where important publi
 
 The target users for this information are other archivists who are wishing to coordinate on what they are crawling and storing. We hope to contribute to data backup efforts with this repository by collecting in one place a "dataset of datasets".
 
+## CLI Tool
+
+We have a CLI utility you can run to automatically seed Svalbard datasets using a [DataSilo](https://github.com/datproject/datasilo/blob/master/README.md). It's experimental and is a work in progress! 
+
+Check out the `cli/` folder for details.
+
 ## Status
 
-Currently in the initial metadata collection phase.
+- Metadata: Currently in the initial collection phase.
+- CLI: Under heavy development!
 
-See `metadata` for known US federal data servers. Open Issues or PRs to report additional metadata sources.
+See `metadata/` for known US federal data servers. Open Issues or PRs to report additional metadata sources.
 
 In progress sources are being tracked [in the issue tracker](https://github.com/datproject/svalbard/issues).
 
