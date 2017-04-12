@@ -8,7 +8,7 @@ The target users for this information are other archivists who are wishing to co
 
 ## Status
 
-Svalbard V1 release [is out!](https://medium.com/@maxogden/project-svalbard-a-metadata-vault-for-research-data-7088239177ab#.6gy3eectc). You can download it with Dat here: https://datproject.org/view/de8cb55dcf2bee13b6cf86a6c4619f2368a66ffe0a0b270784bc386fcfa6ee70.
+Svalbard V1 release [is out!](https://medium.com/@maxogden/project-svalbard-a-metadata-vault-for-research-data-7088239177ab#.6gy3eectc). You can download it with Dat here: https://datproject.org/de8cb55dcf2bee13b6cf86a6c4619f2368a66ffe0a0b270784bc386fcfa6ee70.
 
 In progress sources are being tracked [in the issue tracker](https://github.com/datproject/svalbard/issues).
 
